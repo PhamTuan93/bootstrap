@@ -1,0 +1,104 @@
+h1,h2,h3,h4,h5,h6,ul{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url("../img/bg.png");
+	font-family: arial;
+}
+#header{
+	height: 85px;
+	background: #232323;
+	border-top: 5px solid #ffd304;
+	margin-top: 50px;
+}
+
+#header #logo h1{
+	height: 80px;
+	line-height: 80px;
+}
+
+#header #menu{
+	height: 80px;
+	line-height: 80px;
+}
+
+#header #menu ul li{
+	list-style: none;
+	float: left;
+	padding:0px 20px;
+}
+#header #menu ul li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#header #menu ul li:hover{
+	background: #ffd304;
+	cursor: pointer;
+}
+#header #menu ul li:hover a{
+	color: #232323;
+}
+.fix{
+	padding: 0px;
+}
+#service{
+	background: #fff;
+}
+#service h2{
+	margin:30px 10px;
+	font-weight: bold;
+}
+#service .post img{
+	border: 10px solid red;
+	border-radius: 50%;
+}
+#service .post h3{
+	font-weight: bold;
+	margin:10px;
+}
+#service .post button{
+	background: #232323;
+	color: #fff;
+	margin:15px 0px;
+}
+#service .post button:hover{
+	color: #ffd304;
+}
+
+#customer{
+	background: #ffd305;
+}
+#customer h2{
+	margin:30px 10px;
+	font-weight: bold;
+}
+#customer .post img{
+	border: 10px solid #ffd39b;
+	border-radius: 50%;
+}
+#customer .post h3{
+	font-weight: bold;
+	margin:10px;
+}
+#customer .post button{
+	background: #232323;
+	color: #fff;
+	margin:15px 0px;
+}
+#customer .post button:hover{
+	color: #ffd304;
+}
+#footer{
+	height: 50px;
+	line-height: 50px;
+	background: #232323;
+}
+#footer p {
+color: #666;
+}
+#footer p span{
+	color: #fff
+}
